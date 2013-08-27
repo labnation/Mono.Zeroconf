@@ -16,3 +16,6 @@ missing
 mzclient
 *.config
 mono-zeroconf.pc
+
+bin/
+obj/
