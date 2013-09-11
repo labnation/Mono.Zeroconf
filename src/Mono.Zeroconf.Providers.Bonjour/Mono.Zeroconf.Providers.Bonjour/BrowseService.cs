@@ -113,7 +113,7 @@ namespace Mono.Zeroconf.Providers.Bonjour
 
             InterfaceIndex = interfaceIndex;
             FullName = Native.Utf8toString(fullname);
-            this.port = port;
+            this.port = (ushort)IPAddress.NetworkToHostOrder((short)port);
             TxtRecord = new TxtRecord(txtLen, txtRecord);
             this.hosttarget = hosttarget;
 
