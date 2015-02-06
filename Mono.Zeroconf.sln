@@ -1,13 +1,8 @@
 ﻿
-<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-=======
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
->>>>>>> b84ceb2252931ce8afb1e42e65382e1a6dd353aa
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MZClient", "src\MZClient\MZClient.csproj", "{839D9048-31CF-4010-B427-6A8362556485}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Zeroconf", "src\Mono.Zeroconf\Mono.Zeroconf.csproj", "{5CF88E3A-13DD-4114-BAD9-DA826946516F}"
@@ -24,28 +19,19 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{839D9048-31CF-4010-B427-6A8362556485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{839D9048-31CF-4010-B427-6A8362556485}.Debug|Any CPU.Build.0 = Debug|Any CPU
-<<<<<<< HEAD
 		{839D9048-31CF-4010-B427-6A8362556485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{839D9048-31CF-4010-B427-6A8362556485}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> b84ceb2252931ce8afb1e42e65382e1a6dd353aa
 		{5CF88E3A-13DD-4114-BAD9-DA826946516F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5CF88E3A-13DD-4114-BAD9-DA826946516F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CF88E3A-13DD-4114-BAD9-DA826946516F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CF88E3A-13DD-4114-BAD9-DA826946516F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{623325E2-5821-4701-A40C-3759097008DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{623325E2-5821-4701-A40C-3759097008DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-<<<<<<< HEAD
 		{623325E2-5821-4701-A40C-3759097008DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{623325E2-5821-4701-A40C-3759097008DD}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> b84ceb2252931ce8afb1e42e65382e1a6dd353aa
 		{EF6ED6D1-D201-42ED-B680-5A77641BEB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EF6ED6D1-D201-42ED-B680-5A77641BEB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF6ED6D1-D201-42ED-B680-5A77641BEB77}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

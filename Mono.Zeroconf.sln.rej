@@ -1,0 +1,15 @@
+diff a/Mono.Zeroconf.sln b/Mono.Zeroconf.sln	(rejected hunks)
+@@ -1,8 +1,13 @@
+ ﻿
++<<<<<<< HEAD
+ Microsoft Visual Studio Solution File, Format Version 12.00
+ # Visual Studio 2013
+ VisualStudioVersion = 12.0.31101.0
+ MinimumVisualStudioVersion = 10.0.40219.1
++=======
++Microsoft Visual Studio Solution File, Format Version 11.00
++# Visual Studio 2010
++>>>>>>> b84ceb2252931ce8afb1e42e65382e1a6dd353aa
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MZClient", "src\MZClient\MZClient.csproj", "{839D9048-31CF-4010-B427-6A8362556485}"
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Zeroconf", "src\Mono.Zeroconf\Mono.Zeroconf.csproj", "{5CF88E3A-13DD-4114-BAD9-DA826946516F}"
