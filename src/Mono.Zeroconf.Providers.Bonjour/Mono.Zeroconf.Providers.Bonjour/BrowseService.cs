@@ -121,6 +121,7 @@ namespace Mono.Zeroconf.Providers.Bonjour
             FullName = Native.Utf8toString(fullname);
             this.port = port;
             TxtRecord = new TxtRecord(txtLen, txtRecord);
+            this.hosttarget = hosttarget;
 
             sdRef.Deallocate();
             
