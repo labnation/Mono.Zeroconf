@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
-=======
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
->>>>>>> b84ceb2252931ce8afb1e42e65382e1a6dd353aa
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -18,7 +14,6 @@
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
-<<<<<<< HEAD
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
@@ -38,10 +33,6 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-=======
-    <OldToolsVersion>2.0</OldToolsVersion>
-    <UpgradeBackupLocation />
->>>>>>> b84ceb2252931ce8afb1e42e65382e1a6dd353aa
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -97,11 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Mono.Zeroconf\Mono.Zeroconf.csproj">
-<<<<<<< HEAD
       <Project>{5cf88e3a-13dd-4114-bad9-da826946516f}</Project>
-=======
-      <Project>{5CF88E3A-13DD-4114-BAD9-DA826946516F}</Project>
->>>>>>> b84ceb2252931ce8afb1e42e65382e1a6dd353aa
       <Name>Mono.Zeroconf</Name>
     </ProjectReference>
   </ItemGroup>
