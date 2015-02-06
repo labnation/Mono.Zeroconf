@@ -1,0 +1,4 @@
+D:\External\Mono.Zeroconf\src\Mono.Zeroconf\bin\Release\Mono.Zeroconf.dll
+D:\External\Mono.Zeroconf\src\Mono.Zeroconf\bin\Release\Mono.Zeroconf.pdb
+D:\External\Mono.Zeroconf\src\Mono.Zeroconf\obj\Release\Mono.Zeroconf.dll
+D:\External\Mono.Zeroconf\src\Mono.Zeroconf\obj\Release\Mono.Zeroconf.pdb
