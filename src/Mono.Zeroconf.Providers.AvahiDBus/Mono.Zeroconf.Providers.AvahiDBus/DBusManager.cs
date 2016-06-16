@@ -63,11 +63,6 @@ namespace Mono.Zeroconf.Providers.AvahiDBus
         
         private static void IterateThread (object o)
         {
-            lock (thread_wait) {
-                ConnectToSystemBus ();
-                Monitor.Pulse (thread_wait);
-            }
-            
             while (true) {
                 bus.Iterate ();
             }
@@ -81,10 +76,7 @@ namespace Mono.Zeroconf.Providers.AvahiDBus
             
             initialized = true;
             
-            lock (thread_wait) {
-                ThreadPool.QueueUserWorkItem (IterateThread);
-                Monitor.Wait (thread_wait);
-            }
+			ConnectToSystemBus ();
             
             if (!bus.NameHasOwner("org.freedesktop.Avahi")) {
                 throw new ApplicationException ("Could not find org.freedesktop.Avahi");
