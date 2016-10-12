@@ -1,5 +1,0 @@
-D:\External\Mono.Zeroconf\bin\Mono.Zeroconf.Providers.Bonjour.dll
-D:\External\Mono.Zeroconf\bin\Mono.Zeroconf.Providers.Bonjour.pdb
-D:\External\Mono.Zeroconf\src\Mono.Zeroconf.Providers.Bonjour\obj\Debug\Mono.Zeroconf.Providers.Bonjour.csprojResolveAssemblyReference.cache
-D:\External\Mono.Zeroconf\src\Mono.Zeroconf.Providers.Bonjour\obj\Debug\Mono.Zeroconf.Providers.Bonjour.dll
-D:\External\Mono.Zeroconf\src\Mono.Zeroconf.Providers.Bonjour\obj\Debug\Mono.Zeroconf.Providers.Bonjour.pdb
