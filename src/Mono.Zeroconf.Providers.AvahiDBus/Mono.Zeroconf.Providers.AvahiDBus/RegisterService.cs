@@ -141,12 +141,7 @@ namespace Mono.Zeroconf.Providers.AvahiDBus
             }
         }
         
-        public short Port {
-            get { return (short)UPort; }
-            set { UPort = (ushort)value; }
-        }
-
-        public ushort UPort {
+        public ushort Port {
             get { return port; }
             set { port = value; }
         }

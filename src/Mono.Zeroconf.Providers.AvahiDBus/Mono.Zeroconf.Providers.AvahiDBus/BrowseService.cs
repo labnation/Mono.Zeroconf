@@ -38,7 +38,7 @@ namespace Mono.Zeroconf.Providers.AvahiDBus
         private string full_name;
         private IPHostEntry host_entry;
         private string host_target;
-        private short port;
+        private ushort port;
         private bool disposed;
         private IAvahiServiceResolver resolver;
     
@@ -121,7 +121,7 @@ namespace Mono.Zeroconf.Providers.AvahiDBus
             TxtRecord = new TxtRecord (txt);
             
             this.full_name = String.Format ("{0}.{1}.{2}", name.Replace (" ", "\\032"), type, domain);
-            this.port = (short)port;
+            this.port = port;
             this.host_target = host;
             
             host_entry = new IPHostEntry ();
@@ -146,7 +146,7 @@ namespace Mono.Zeroconf.Providers.AvahiDBus
             get { return host_target; } 
         }
         
-        public short Port { 
+        public ushort Port { 
             get { return port; }
         }
     }

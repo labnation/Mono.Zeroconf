@@ -76,14 +76,9 @@ namespace Mono.Zeroconf
             set { register_service.TxtRecord = value; }
         }
         
-        public short Port {
+        public ushort Port {
             get { return register_service.Port; }
             set { register_service.Port = value; }
-        }
-        
-        public ushort UPort {
-            get { return register_service.UPort; }
-            set { register_service.UPort = value; }
         }
     }
 }

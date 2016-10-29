@@ -126,13 +126,8 @@ namespace Mono.Zeroconf.Providers.Bonjour
         public uint NetworkInterface {
             get { return interface_index; }
         }
-                
-        public short Port {
-            get { return (short)UPort; }
-            set { UPort = (ushort)value; }
-        }
 
-        public ushort UPort {
+        public ushort Port {
             get { return port; }
             set { port = value; }
         }
