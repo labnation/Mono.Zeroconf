@@ -21,3 +21,5 @@ bin/
 obj/
 
 *~
+*.bak
+*.user
