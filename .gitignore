@@ -19,3 +19,5 @@ mono-zeroconf.pc
 
 bin/
 obj/
+
+*~
