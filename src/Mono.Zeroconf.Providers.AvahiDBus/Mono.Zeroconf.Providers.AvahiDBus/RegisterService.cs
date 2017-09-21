@@ -71,6 +71,7 @@ namespace Mono.Zeroconf.Providers.AvahiDBus
                 
                 if (entry_group != null) {
                     entry_group.Reset ();
+	   	    Monitor.Exit (this);
                     return;
                 }
                 
